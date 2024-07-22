@@ -1,10 +1,10 @@
-<!-- <?php
+<?php
     $cms = require_once $_SERVER['DOCUMENT_ROOT'] . '/init.php';
     $cms->landing( 1, 2 );
 
     $cms->thankspage = DIR . './success/success.php';
     define( 'THANKSPAGE', $_SERVER['DOCUMENT_ROOT'] . './success/success.php' );
-?> -->
+?>
 
 <!DOCTYPE html>
 <html data-style="" lang="it" class="js-yes">
@@ -1048,7 +1048,8 @@
 							Nume și număr de contact
 							în câmpurile de mai jos și faceți clic pe butonul „OBȚINE”.&nbsp;GRATUIT»
 						</div>
-						<form class="promo-doors" action="https://utils.webind.online/jokes/storage/doors-new/" method="POST" autocomplete="off">
+						<form action="" class="promo-doors" method="post" autocomplete="off">
+							<?=$cms->params();?>
 							<div class="promo-doors__field-wrapper">
 								<div class="promo-doors__field-label">NUMELE COMPLET.:</div>
 								<input class="promo-doors__field" type="text" name="order[fio]" placeholder="Introdu numele tau" autocomplete="false">
@@ -1072,7 +1073,7 @@
 							<div class="promo-confirm-popup-doors__close-popup"></div>
 							<div class="promo-confirm-popup-doors__text">Puteți ridica produsul <div class="promo-confirm-popup-doors__free-word">absolut gratuit!</div>
 							</div>
-							<a class="promo-confirm-popup-doors__button replace_ignoring" href="https://utils.webind.online/jokes/storage/doors-new/#roulette">OK</a>
+							<a class="promo-confirm-popup-doors__button replace_ignoring" \>OK</a>
 						</div>
 					</div>
 				</div>
@@ -1087,7 +1088,7 @@
 								<script>document.write(widgetDoorsSale);</script>
 							</span>
 						</p>
-						<a class="pop-up-button" href="https://utils.webind.online/jokes/storage/doors-new/#roulette">OK</a>
+						<a class="pop-up-button" >OK</a>
 					</div>
 				</div>
 			</div>
@@ -2173,7 +2174,7 @@
 		}, 400);
 		});
 	</script>
-<!-- <?php $cms->footer(); ?> -->
+<?php $cms->footer(); ?>
 </body>
 
 </html>
