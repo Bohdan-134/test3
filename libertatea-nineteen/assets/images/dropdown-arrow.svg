@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="9px" height="8px" viewBox="0 0 9 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>dropdown-arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.800000012">
+        <g id="dropdown-arrow" fill="#000000">
+            <path d="M3.17305968,4.70561998 L6.7115672,4.70561998 C7.20013313,4.70561998 7.59619408,5.10168092 7.59619408,5.59024685 C7.59619408,6.07881279 7.20013313,6.47487373 6.7115672,6.47487373 L2.2884328,6.47487373 C2.04414983,6.47487373 1.82299311,6.3758585 1.66290714,6.21577252 C1.50282116,6.05568654 1.40380592,5.83452982 1.40380592,5.59024685 L1.40380592,1.16711246 C1.40380592,0.678546523 1.79986687,0.282485579 2.2884328,0.282485579 C2.77699874,0.282485579 3.17305968,0.678546523 3.17305968,1.16711246 L3.17305968,4.70561998 Z" id="Combined-Shape" transform="translate(4.500000, 3.378680) rotate(-45.000000) translate(-4.500000, -3.378680) "></path>
+        </g>
+    </g>
+</svg>
