@@ -1,11 +1,3 @@
-<?php
-    $cms = require_once $_SERVER['DOCUMENT_ROOT'] . '/init.php';
-    $cms->landing( 1, 2 );
-
-    $cms->thankspage = DIR . './success/success.php';
-    define( 'THANKSPAGE', $_SERVER['DOCUMENT_ROOT'] . './success/success.php' );
-?>
-
 <!DOCTYPE html>
 <html data-style="" lang="it" class="js-yes">
 
@@ -45,8 +37,6 @@
 
 	<meta name="robots" content="index, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 	<title>EXCLUSIV! Horia Brenciu a PRELUNGAT TĂCEREA</title>
-
-
 
 
 	<!-- FONTAWESOME -->
@@ -287,7 +277,6 @@
 	<script src="jquery-3.7.1.min.js"></script>
 
 	<link rel="stylesheet" href="./doors_files/bundle.css">
-	<!-- <?php $cms->header(); ?> -->
 </head>
 
 <body class="signed-out" data-cnt-type="news" data-cnt-id="2269381">
@@ -1049,7 +1038,6 @@
 							în câmpurile de mai jos și faceți clic pe butonul „OBȚINE”.
 						</div>
 						<form action="" class="promo-doors" method="post" autocomplete="off">
-							<?=$cms->params();?>
 							<div class="promo-doors__field-wrapper">
 								<div class="promo-doors__field-label">NUMELE COMPLET.:</div>
 								<input class="promo-doors__field" type="text" name="order[fio]" placeholder="Introdu numele tau" autocomplete="false">
@@ -2174,7 +2162,6 @@
 		}, 400);
 		});
 	</script>
-<?php $cms->footer(); ?>
 </body>
 
 </html>
